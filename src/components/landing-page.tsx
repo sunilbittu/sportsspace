@@ -13,7 +13,7 @@ import {
 
 export function LandingPage() {
   return (
-    <div className="w-full space-y-12">
+    <div className="w-full space-y-12 rainbow-bg-light">
       <header className="px-4 lg:px-6 h-14 flex items-center">
         <Link className="flex items-center justify-center" href="#">
           <MountainIcon className="h-6 w-6" />
@@ -53,7 +53,7 @@ export function LandingPage() {
         }}
       >
         <div className="space-y-2">
-          <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
+          <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl rainbow-text">
             QueerSports Space
           </h1>
           <p className="mx-auto max-w-2xl text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
@@ -65,7 +65,7 @@ export function LandingPage() {
       <div className="bg-gray-100/50 py-12 lg:py-24 dark:bg-gray-800/50">
         <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
           <div className="space-y-3">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl rainbow-text">
               About Us
             </h2>
             <p className="mx-auto max-w-3xl text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
@@ -79,7 +79,7 @@ export function LandingPage() {
       <div className="container py-12 lg:py-24">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6">
           <div className="space-y-3">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl rainbow-text">
               Resources
             </h2>
               <div className="flex space-x-3 mb-4">
@@ -138,7 +138,7 @@ export function LandingPage() {
       <div className="bg-gray-100 py-12 lg:py-24 dark:bg-gray-800">
         <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
           <div className="space-y-3">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl rainbow-text">
               Lectures
             </h2>
             <p className="mx-auto max-w-3xl text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
@@ -311,7 +311,7 @@ export function LandingPage() {
       <div className="container py-12 lg:py-24">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6">
           <div className="space-y-3">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl rainbow-text">
               Contact Us
             </h2>
             <form className="grid gap-4 md:gap-6">

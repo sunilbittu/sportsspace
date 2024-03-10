@@ -31,3 +31,60 @@ body {
     text-wrap: balance;
   }
 }
+
+.rainbow-text {
+  background-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.rainbow-border {
+  border: 2px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+}
+
+.rainbow-bg {
+  background-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+}
+
+.rainbow-bg-light {
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 255, 0, 0.5),
+    rgba(255, 255, 0, 0.5),
+    rgba(0, 0, 255, 0.5),
+    rgba(255, 127, 0, 0.5),
+    rgba(75, 0, 130, 0.5),
+    rgba(148, 0, 211, 0.5),
+    rgba(255, 0, 0, 0.5)
+  );
+}
